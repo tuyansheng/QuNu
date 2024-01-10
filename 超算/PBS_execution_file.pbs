@@ -1,0 +1,10 @@
+#PBS -N n4_14o_T10_m
+#PBS -m abe
+#PBS -M 928235325@qq.com
+#PBS -l nodes=1:ppn=24
+#PBS -o output.log
+#PBS -e err.log
+#PBS -u tuys
+
+cd ~/code/chiral-symmetry/2+1dimension/VQE_Opt/g1
+python n4_14o_T10_m.py > n4_14o_T10_m.output
